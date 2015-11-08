@@ -1,0 +1,44 @@
+* {
+	font-family: 'Merriweather Sans', sans-serif;
+	}
+
+#catinbox {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: auto;
+	border-radius: 50px;
+	box-shadow: 3px 3px 10px;
+	outline: none;
+	}
+
+.text {
+	text-align: center;
+	}
+
+.wrapper {
+	display: table;
+    margin: auto;
+    padding-left: 110px;
+	}
+
+.clicker1 {
+	float: left;
+	margin-right: 10px;
+	}
+
+.clicker2 {
+	float: left;
+	padding-top: 18px;
+	}
+
+.form {
+	border: 0;
+	font-weight: bold;
+	font-size: 18px;
+	}
+
+#margin {
+	margin-bottom: 0;
+	}

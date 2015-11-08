@@ -1,0 +1,35 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+<script>
+
+var i = 1
+function plusOne() {
+document.getElementById("clickNumber").value = i++;
+}
+
+</script>
+</head>
+<header>
+</header>
+<body>
+<h1 class="text">CAT CLICKER!!!</h1>
+<div>
+<input type="image" id="catinbox" src="img/catpic.jpg" alt="Cat in Box" onclick="plusOne()"/>
+</div>
+<div class="text">
+	<h1 id="margin">Click the cat in the box</h1>
+</div>
+<div class="wrapper">
+	<div class="clicker1">
+		<h3>clicks:<h3>
+	</div>
+	<div class="clicker2">
+		<form id="form">
+		<input type="text" name="clicks" class="form" size="10" id="clickNumber" value="0">
+		</form>
+	</div>
+</div>
+</body>
+</html>
